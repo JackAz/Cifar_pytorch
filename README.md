@@ -16,11 +16,15 @@
 
 3. 根据官网提示安装pytorch，这里安装cpu版本
 
-   使用7.0版本的pillow可能出现Import Error，可以通过装低版本解决
-
    `conda install pytorch torchvision cpuonly`
 
+   使用7.0版本的pillow可能出现Import Error，可以通过装低版本解决
+
    `conda install pillow==6`
+
+   安装matplotlib库
+
+   `conda install matplotlib`
 
 ## Pytorch代码
 
@@ -29,3 +33,4 @@
 运行代码查看效果
 
 `` python main.py``
+
